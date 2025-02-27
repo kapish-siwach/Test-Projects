@@ -52,7 +52,7 @@ public class PostVolley extends AppCompatActivity {
     }
 
     private void loginUser(String email, String password) {
-        String url = "https://dev4.pristinefulfil.com/api/UserLogin/Login";
+        String url = "Complete URl here";
         progressBarLogin.setVisibility(View.VISIBLE);
 
         RequestQueue volleyQueue = Volley.newRequestQueue(this);
