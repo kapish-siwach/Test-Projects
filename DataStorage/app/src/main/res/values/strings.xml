@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Data Storage</string>
+    <string name="file_content">File Content</string>
+    <string name="write_content">Write Content</string>
+    <string name="read">Read</string>
+    <string name="write">Write</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Notifications</string>
+    <string name="send_notification">Send Notification</string>
+    <string name="hahahahahah">Hahahahahah</string>
+    <string name="notification_title">Notification Title</string>
+    <string name="notificaiton_content">Notificaiton Content</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="next_activity">Next Activity</string>
+    <string name="capture_image">Capture Image</string>
+</resources>

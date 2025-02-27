@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DesignTest</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="enter_personal_details">Enter personal details to your \nemployee account</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="back">Back</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="sign_in_with">Sign in with</string>
+    <string name="applelogin">appleLogin</string>
+    <string name="googlelogin">googlelogin</string>
+    <string name="facebook_login">Facebook Login</string>
+    <string name="twitter_login">Twitter Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+</resources>

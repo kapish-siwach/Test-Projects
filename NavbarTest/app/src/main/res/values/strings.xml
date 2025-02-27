@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NavbarTest</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="go_to_second_activity">Go to second activity</string>
+    <string name="hello_from_header">Hello from header</string>
+    <string name="next">Next</string>
+</resources>

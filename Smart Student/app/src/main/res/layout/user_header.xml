@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+   <com.google.android.material.card.MaterialCardView
+       android:layout_width="200dp"
+       android:layout_height="200dp"
+       android:layout_gravity="center"
+       android:padding="10dp"
+       app:cardCornerRadius="100dp"
+       >
+       <ImageView
+           android:layout_width="200dp"
+           android:layout_height="200dp"
+           android:id="@+id/showUserImg"
+           android:scaleType="centerCrop"
+           android:layout_gravity="center"
+           android:padding="5dp"
+           />
+   </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/fullNameShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/full_name"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/emailShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/mobileShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/mobile_number"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"
+        android:layout_marginVertical="10dp"
+        />
+</LinearLayout>
