@@ -54,7 +54,7 @@ public class VolleyHeader extends AppCompatActivity {
 
     private void findUser(String email) {
         progressBar.setVisibility(View.VISIBLE);
-        String url = "https://dev4.pristinefulfil.com/api/Employee/EmployeeDetailGet";
+        String url = "<<Your full url for api here>>";
         RequestQueue requestQueue = Volley.newRequestQueue(this);
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
