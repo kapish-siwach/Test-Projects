@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void getDetails() {
         RequestQueue volleyQueue= Volley.newRequestQueue(MainActivity.this);
-        String url="https://wmsmarketplacedemo.pristinefulfil.com/api/User/EmployeeDetailGet?user_id=SP-521";
+        String url="Full URL Here";
 
         JsonArrayRequest userDataRequest=new JsonArrayRequest(
                 Request.Method.GET,url,null,response->{
