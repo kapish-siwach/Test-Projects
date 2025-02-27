@@ -9,7 +9,7 @@ import retrofit2.http.POST;
 
 public interface ApiInterface {
 
-    @Headers("company_id: Green Gold Seeds Pvt. Ltd.")
-    @POST("/api/Employee/EmployeeDetailGet")
+    @Headers("Your Custom Header here")
+    @POST("Your End Points here")
     Call<List<ResponseData>> getDetails(@Body UserData userData);
 }
